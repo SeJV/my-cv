@@ -10,6 +10,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 import Navbar from'./components/Navbar'
+import Footer from './components/Footer'
 import Home from './pages/Home'
 import CV from './pages/CV'
 import Projects from './pages/Projects'
@@ -19,16 +20,11 @@ function App() {
         <Router>
             <Navbar />
             <Switch>
-                <Route path="/cv">
-                    <CV />
-                </Route>
-                <Route path="/projects">
-                    <Projects />
-                </Route>
-                <Route path="/">
-                    <Home />
-                </Route>
+                <Route path="/cv"><CV /></Route>
+                <Route path="/projects"><Projects /></Route>
+                <Route path="/"><Home /></Route>
             </Switch>
+            <Footer/>
         </Router>
     );
 }

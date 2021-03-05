@@ -1,16 +1,24 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Navbar as BSNavbar, Nav } from 'react-bootstrap'
+import { withRouter } from 'react-router'
 
-function Navbar() {
+const Navbar = props => {
+    const { location } = props;
     return (
         <div className="Navbar">
-            <ul>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/cv">Curriculum Vitae</Link></li>
-                <li><Link to="/projects">Projects</Link></li>
-            </ul>
+            <BSNavbar bg="light" expand="md">
+                <BSNavbar.Brand href="/" eventKey="0">Sebastian Vogt</BSNavbar.Brand>
+                <BSNavbar.Toggle aria-controls="responsive-navbar-nav" />
+                <BSNavbar.Collapse id="basic-navbar-nav">
+                    <Nav activeKey={location.pathname}>
+                        <Nav.Link href="/">Home</Nav.Link>
+                        <Nav.Link href="/cv">CV</Nav.Link>
+                        <Nav.Link href="/projects">Projects</Nav.Link>
+                    </Nav>
+                </BSNavbar.Collapse>
+            </BSNavbar>
         </div>
     );
 }
 
-export default Navbar;
+export default withRouter(Navbar);
