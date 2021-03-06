@@ -2,8 +2,7 @@ import React from 'react'
 import {
     BrowserRouter as Router,
     Switch,
-    Route,
-    Link
+    Route
 } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -14,17 +13,21 @@ import Footer from './components/Footer'
 import Home from './pages/Home'
 import CV from './pages/CV'
 import Projects from './pages/Projects'
+import Impressum from './pages/Impressum'
 
 function App() {
     return (
         <Router>
             <Navbar />
-            <Switch>
-                <Route path="/cv"><CV /></Route>
-                <Route path="/projects"><Projects /></Route>
-                <Route path="/"><Home /></Route>
-            </Switch>
+            <div className="body">
+                <Switch>
+                    <Route path="/cv"><CV /></Route>
+                    <Route path="/projects"><Projects /></Route>
+                    <Route path="/impressum"><Impressum /></Route>
+                    <Route path="/"><Home /></Route>
+                </Switch>
             <Footer/>
+            </div>
         </Router>
     );
 }

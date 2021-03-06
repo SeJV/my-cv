@@ -1,0 +1,38 @@
+.HomeCard {
+    position: absolute;
+    left: calc(33% - 230px);
+    top: 50px;
+    width: 270px;
+    background-color: var(--secondary-light-color);
+    color: var(--on-secondary-color);
+    text-align: center;
+    box-shadow: var(--shd, 0 1px 1px rgba(0,0,0,.6));
+}
+.HomeCard .padder {
+    padding: 20px;
+}
+.HomeCard .Socials {
+    box-shadow: var(--shdt, 0 1px 1px rgba(0,0,0,.1));
+    background-color: white;
+}
+.HomeCard img {
+    width: 140px;
+    border-radius: 999px;
+    margin: 10px auto 20px;
+    display: block;
+}
+.HomeCard h3 {
+    font-weight: bold;
+    margin: 0;
+}
+.HomeCard h4 {
+    font-weight: 300;
+}
+.HomeCard .splitter {
+    height: 2px;
+    width: 40px;
+    margin: 23px auto 20px;
+    background-color: var(--primary-color);
+}
+
+

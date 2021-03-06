@@ -1,0 +1,11 @@
+.Home {
+    position: relative;
+}
+
+.Home .aboutme {
+    background-color: var(--bg-color);
+    margin-left: 33%;
+    padding: 80px;
+    padding-bottom: 200px;
+}
+

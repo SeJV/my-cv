@@ -1,1 +1,37 @@
+:root {
+    --bg-color: #F5F5F6;
+    --surface-color: #F5F5F6;
+    --primary-color: #1e88e5;
+    --primary-light-color: #2196f3;
+    --primary-dark-color: #1976d2;
+    --secondary-color: #dcedc8;
+    --secondary-light-color: #f1f8e9;
+    --secondary-dark-color: #c5e1a5;
+
+    --on-surface-color: #000;
+    --on-background-color: #000;
+    --on-primary-color: #fff;
+    --on-secondary-color: #000;
+
+    --breakpoint: 767px;
+
+    --shd: 11px 11px 11px 0px rgba(138,131,124,0.23);
+    --shdt: 11px -11px 11px 0px rgba(138,131,124,0.08);
+}
+html {
+    background-color: var(--bg-color);
+}
+body {
+    background-color: var(--bg-color);
+}
+
+.Home, .CV, .Projects, .Impressum {
+    background-color: var(--secondary-color);
+}
+.content {
+    width: 550px;
+    margin: auto;
+}
+
+
 

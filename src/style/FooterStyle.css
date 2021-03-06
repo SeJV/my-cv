@@ -1,0 +1,36 @@
+.Footer {
+    padding: 20px 40px;
+    display: flex;
+    font-size: 0.8rem;
+}
+.Footer h5 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.Footer .contacts span {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.Footer .Socials svg {
+    font-size: 1rem;
+    margin-top: -12px;
+}
+.Footer .Socials a {
+    margin: 0 3px;
+}
+
+.Footer a, .Footer a:hover, .Footer a:visited {
+    color: var(--on-background-color);
+    text-decoration: none;
+}
+.Footer .impr {
+    width: 40%;
+}
+.Footer .contacts {
+    width: 60%;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+}

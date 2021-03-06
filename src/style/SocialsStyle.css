@@ -1,0 +1,18 @@
+.Socials {
+    font-size: 1.2rem;
+    height: 35px;
+}
+.Socials a {
+    margin: 10px;
+    padding: 5px;
+    color: var(--on-background-color);
+}
+.Socials a:hover {
+    color: var(--on-background-color);
+}
+.Socials a:visited {
+    color: var(--on-background-color);
+}
+.Socials a svg {
+    margin-top: 3px;
+}
