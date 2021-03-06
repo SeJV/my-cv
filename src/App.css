@@ -25,6 +25,11 @@ body {
     background-color: var(--bg-color);
 }
 
+a, a:hover, a:visited {
+    text-decoration: none;
+    color: var(--on-background-color);
+}
+
 .Home, .CV, .Projects, .Impressum {
     background-color: var(--secondary-color);
 }

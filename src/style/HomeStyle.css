@@ -6,6 +6,43 @@
     background-color: var(--bg-color);
     margin-left: 33%;
     padding: 80px;
-    padding-bottom: 200px;
+}
+
+.Home .aboutme h1 {
+    font-size: 5rem;
+    font-weight: 700;
+}
+.Home .aboutme h2 {
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.Home .aboutme .btn {
+    font-size: 0.8rem;
+    font-weight: 600;
+    border-radius: 999px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 2px 8px;
+}
+.Home .aboutme .btn-primary {
+    background-color: var(--primary-color);
+    color: var(--on-primary-color);
+}
+.Home .aboutme .btn-primary:hover {
+    background-color: var(--bg-color);
+    color: var(--on-background-color);
+}
+.Home .aboutme .btn-secondary {
+    background-color: var(--bg-color);
+    color: var(--on-background-color);
+    border-color: var(--primary-dark-color);
+}
+.Home .aboutme .btn-secondary:hover {
+    background-color: var(--primary-color);
+    color: var(--on-primary-color);
+}
+.Home .aboutme p {
+    margin-top: 30px;
+    max-width: 400px;
 }
 
