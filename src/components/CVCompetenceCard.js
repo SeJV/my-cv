@@ -10,9 +10,9 @@ const CVCompetenceCard = () => {
                 <div>
                     <h5>professional</h5>
                     <ul>
-                        <li>Python, Java, JS very good</li>
-                        <li>C++, C, Assembly good</li>
-                        <li>MongoDB and MySQL good</li>
+                        <li>Excellent: Python, Java, JS</li>
+                        <li>Good: C++, C, Assembly</li>
+                        <li>Good: MongoDB and MySQL</li>
                         <li>Data Science, Machine Learning and Image Processing with
                             <ul>
                                 <li>Numpy</li>
@@ -30,6 +30,14 @@ const CVCompetenceCard = () => {
                         <li>English C1</li>
                     </ul>
                 </div>
+            </div>
+            <div className="hobbies">
+                <h5>hobbies</h5>
+                <ul>
+                    <li>Sports like jogging and soccer</li>
+                    <li>Making electronic music</li>
+                    <li>Coding for fun</li>
+                </ul>
             </div>
         </div>
     )

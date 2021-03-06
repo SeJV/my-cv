@@ -1,11 +1,11 @@
 import React from 'react'
 
+import '../style/ProjectCardStyle.css'
+
 const ProjectCard = props => {
     return (
         <div className="ProjectCard">
-            <h4>{props.name}</h4>
-            <p>{props.description}</p>
-            <p>{props.img}</p>
+            {props.children}
         </div>
     )
 }

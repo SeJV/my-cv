@@ -1,0 +1,15 @@
+.ProjectCard {
+    padding-right: 250px;
+    height: 300px;
+    margin: 40px 0;
+}
+.ProjectCard img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 300px;
+    width: 230px;
+    object-fit: cover;
+    box-shadow: var(--shdi, 0 1px 1px rgba(0,0,0,.6));
+}
+

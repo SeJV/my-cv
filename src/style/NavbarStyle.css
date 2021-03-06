@@ -16,11 +16,19 @@
 .Navbar .nav-link:hover {
     color: var(--primary-color) !important;
 }
+.Navbar span svg {
+    color: var(--primary-dark-color);
+    font-size: 1.6rem;
+    margin-top: -5px;
+}
 .Navbar h3 {
-    font-weight: bold;
+    font-weight: 800;
+    font-size: 1.4rem;
 }
 .Navbar h4 {
     font-weight: 300;
+    font-size: 1.2rem;
+    margin-left: 10px;
 }
 .Navbar h3, .Navbar h4{
     display: inline-block;

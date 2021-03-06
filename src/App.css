@@ -16,6 +16,7 @@
     --breakpoint: 767px;
 
     --shd: 11px 11px 11px 0px rgba(138,131,124,0.23);
+    --shdi: -11px 0px 11px 0px rgba(138,131,124,0.15);
     --shdt: 11px -11px 11px 0px rgba(138,131,124,0.08);
 }
 html {
@@ -29,6 +30,12 @@ a, a:hover, a:visited {
     text-decoration: none;
     color: var(--on-background-color);
 }
+ul {
+    list-style-type: square;
+}
+li::marker {
+    color: var(--primary-dark-color);
+}
 
 .Home, .CV, .Projects, .Impressum {
     background-color: var(--secondary-color);
@@ -38,11 +45,33 @@ a, a:hover, a:visited {
     margin: auto;
 }
 
-.CVCard, .CVCompetenceCard {
+.CV, .Projects {
+    padding: 40px 0;
+}
+.CV h1, .Projects h1 {
+    text-align: center;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+.CV h2 {
+    font-weight: 800;
+    font-size: 1.4rem;
+}
+
+.CVCard, .CVCompetenceCard, .ProjectCard {
     background-color: var(--bg-color);
     box-shadow: var(--shd, 0 1px 1px rgba(0,0,0,.6));
     padding: 20px;
     font-size: 0.9rem;
+    position:relative;
+}
+
+
+.CVCard h4, .ProjectCard h4 {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: var(--primary-dark-color);
 }
 
 
