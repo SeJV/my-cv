@@ -1,0 +1,29 @@
+.CVCard {
+    margin: 40px 0;
+}
+
+.CVCard h4 {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: var(--primary-dark-color);
+}
+
+.CVCard .cont {
+    display: flex;
+
+}
+.CVCard .info {
+    width: 40%;
+}
+.CVCard .description {
+    width: calc(60% - 20px);
+    margin: 0 10px;
+}
+.CVCard .description p {
+    margin: 0;
+}
+.CVCard .position {
+    font-weight: 700;
+}
+

@@ -1,0 +1,17 @@
+.CVCompetenceCard {
+    margin-top: 80px;
+}
+
+.CVCompetenceCard h4 {
+    margin-top: 20px;
+    color: var(--primary-dark-color);
+    font-weight: 800;
+    font-size: 1.4rem;
+}
+.CVCompetenceCard .skills {
+    display: flex;
+}
+.CVCompetenceCard .skills div {
+    width: 50%;
+}
+

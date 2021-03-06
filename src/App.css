@@ -38,5 +38,12 @@ a, a:hover, a:visited {
     margin: auto;
 }
 
+.CVCard, .CVCompetenceCard {
+    background-color: var(--bg-color);
+    box-shadow: var(--shd, 0 1px 1px rgba(0,0,0,.6));
+    padding: 20px;
+    font-size: 0.9rem;
+}
+
 
 
