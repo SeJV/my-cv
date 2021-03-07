@@ -74,3 +74,31 @@
     }
 }
 
+
+@media (min-width: 1440px) {
+    .Home .aboutme {
+        padding-left: 120px;
+        min-height: 85vh;
+    }
+    .Home .aboutme h1 {
+        margin-top: 50px;
+        font-size: 6rem;
+        font-weight: 800;
+    }
+    .Home .aboutme h2 {
+        font-size: 3rem;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+    .Home .aboutme p {
+        font-size: 1.6rem;
+        margin-top: 50px;
+        max-width: 700px;
+    }
+    .Home .aboutme .btn {
+        font-size: 1.4rem;
+        margin: 20px 10px 0;
+        padding: 4px 18px;
+    }
+}
+

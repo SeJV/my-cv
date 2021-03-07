@@ -58,4 +58,16 @@
         margin-top: -12px;
     }
 }
+@media (min-width: 1440px) {
+    .Footer {
+        font-size: 1.2rem;
+    }
+    .Footer h5 {
+        font-size: 1.5rem;
+    }
+    .Footer .Socials svg {
+        font-size: 1.7rem;
+        margin-top: -12px;
+    }
+}
 

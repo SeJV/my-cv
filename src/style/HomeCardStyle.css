@@ -51,3 +51,38 @@
         height: 45px;
     }
 }
+@media (min-width: 1440px) {
+    .HomeCard {
+        top: 100px;
+        left: calc(33% - 400px);
+        width: 450px;
+    }
+    .HomeCard .padder {
+        padding: 40px;
+    }
+    .HomeCard img {
+        width: 200px;
+        height: 200px;
+        border-radius: 999px;
+        margin: 10px auto 40px;
+    }
+    .HomeCard h3 {
+        font-size: 2.5rem;
+    }
+    .HomeCard h4 {
+        font-size: 2rem;
+    }
+    .HomeCard .splitter {
+        height: 4px;
+        width: 70px;
+        margin: 35px auto 40px;
+        background-color: var(--primary-color);
+    }
+    .HomeCard .Socials {
+        font-size: 2rem;
+        height: 61px;
+    }
+    .HomeCard .Socials a {
+        margin: 20px;
+    }
+}

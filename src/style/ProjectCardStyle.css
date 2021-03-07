@@ -40,3 +40,14 @@
         padding-top: 30px;
     }
 }
+
+@media (min-width: 1440px) {
+    .ProjectCard {
+        height: 400px;
+        padding-right: 320px;
+    }
+    .ProjectCard img {
+        height: 400px;
+        width: 300px;
+    }
+}

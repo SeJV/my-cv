@@ -68,13 +68,13 @@ li::marker {
     position: relative;
 }
 
-
-.CVCard h4, .ProjectCard h4 {
+.CVCard h4, .CVCompetenceCard h4, .ProjectCard h4 {
     margin-top: 20px;
     font-size: 1.2rem;
     font-weight: 800;
     color: var(--primary-dark-color);
 }
+
 .CV, .Projects {
     position: relative;
 }
@@ -115,3 +115,38 @@ li::marker {
     }
 }
 
+@media (min-width: 1440px) {
+    .content {
+        width: 850px;
+    }
+    .CV, .Projects {
+        font-size: 1.4rem;
+    }
+    .CVCard, .CVCompetenceCard, .ProjectCard {
+        padding: 40px;
+    }
+    .CV h1, .Projects h1, .Impressum h1 {
+        font-size: 3.5rem;
+        margin-top: 80px;
+        margin-bottom: 40px;
+    }
+    .CV h2, .Impressum h2 {
+        font-size: 2.0rem;
+    }
+    .CVCard h4, .CVCompetenceCard h4, .ProjectCard h4 {
+        font-size: 1.8rem;
+        margin-bottom: 20px;
+    }
+    .CV h5, .Projects h5, .Impressum h5 {
+        font-size: 1.7rem;
+    }
+    .CV .fun, .Projects .fun {
+        height: 800px;
+    }
+    .CV .fun img, .Projects .fun img {
+        height: 800px;
+    }
+    .CV .fun .gradient, .Projects .fun .gradient {
+        height: 800px;
+    }
+}
