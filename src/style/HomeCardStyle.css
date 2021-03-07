@@ -44,5 +44,10 @@
         top: -130px;
         margin: 0 auto 0;
         box-shadow: var(--shda, 0 1px 1px rgba(0,0,0,.6));
+        width: 300px;
+    }
+    .HomeCard .Socials {
+        font-size: 1.5rem;
+        height: 45px;
     }
 }
