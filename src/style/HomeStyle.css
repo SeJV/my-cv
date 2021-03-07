@@ -46,3 +46,31 @@
     max-width: 400px;
 }
 
+
+@media (max-width: 767px) {
+    .Home {
+        padding: 0 0;
+        margin-top: 150px;
+    }
+    .Home .aboutme {
+        background-color: var(--bg-color);
+        margin-top: -50px;
+        margin-left: 0;
+        padding: 30px;
+    }
+    .Home .aboutme h1 {
+        font-size: 3.5rem;
+    }
+    .Home .aboutme h2 {
+        font-size: 1.9rem;
+    }
+    .Home .aboutme .btn {
+        font-size: 0.9rem;
+        padding: 5px 15px;
+    }
+    .Home .aboutme .links {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+

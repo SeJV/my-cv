@@ -18,6 +18,7 @@
     --shd: 11px 11px 11px 0px rgba(138,131,124,0.23);
     --shdi: -11px 0px 11px 0px rgba(138,131,124,0.15);
     --shdt: 11px -11px 11px 0px rgba(138,131,124,0.08);
+    --shda: 0px 0px 11px 0px rgba(138,131,124,0.23);
 }
 html {
     background-color: var(--bg-color);

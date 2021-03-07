@@ -8,9 +8,8 @@
     font-weight: 700;
 }
 
-.Footer .contacts span {
-    margin-left: 15px;
-    margin-right: 15px;
+.Footer .contacts>div {
+    margin: 0 15px;
 }
 
 .Footer .Socials svg {
@@ -34,3 +33,22 @@
     display: flex;
     justify-content: flex-end;
 }
+
+@media (max-width: 767px) {
+    .Footer {
+        padding: 20px 20px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .Footer .impr, .Footer .contacts {
+        width: 100%;
+    }
+    .Footer .contacts {
+        justify-content: space-around;
+    }
+    .Footer .impr {
+        margin-top: 10px;
+        text-align: center;
+    }
+}
+
