@@ -12,16 +12,16 @@ const CV = () => {
                 <h1>Curriculum Vitae</h1>
                 <h2>Education</h2>
                 <CVCard date="Since 03 / 2020" position="Master of Science in CS" employer="Karlsruhe University of Applied Sciences">
-                    <p>Current mark: 1.3</p>
+                    <p><b>Current mark: 1.3</b></p>
                     <p>Relevant courses:</p>
                     <ul>
                         <li>Artificial Intelligence (1.0)</li>
                         <li>Machine Learning (1.3)</li>
-                        <li>voluntarily Business English C1 (1.0)</li>
+                        <li>Business English C1 (1.0)</li>
                     </ul>
                 </CVCard>
                 <CVCard date="09 / 2016  -  02 / 2020" position="Bachelor of Science in CS" employer="Mannheim University of Applied Sciences">
-                    <p>Mark: 1.4</p>
+                    <p><b>Mark: 1.4</b></p>
                     <p>Relevant courses:</p>
                     <ul>
                         <li>Scientific Computing (1.0)</li>
@@ -34,8 +34,7 @@ const CV = () => {
                     <p>Member of Hector Seminar in Mannheim, a seminar to support students with special talents in science</p>
                 </CVCard>
                 <CVCard date="09 / 2006  -  06 / 2015" position="Abitur" employer="Hebel-Gymnasium Schwetzingen">
-                    <br/>
-                    <p>Mark: 2.1</p>
+                    <p><b>Mark: 2.1</b></p>
                 </CVCard>
                 <h2>Scholarships</h2>
                 <CVCard date="09 / 2020  -  08 / 2021" employer="Karlsruhe University of Applied Sciences in cooperation with Vector GmbH">
@@ -49,7 +48,6 @@ const CV = () => {
                     <p>Internship at SNP Business Landscape Management GmbH in Heidelberg. Subject of my work was email classification within the SAP Solution Manager.</p>
                 </CVCard>
                 <CVCard date="Summer 2018" position="Freelancer" employer="GC Solution GmbH" location="Speyer and Barcelona">
-                    <br/>
                     <p>Freelancer as webdeveloper.</p>
                 </CVCard>
                 <CVCompetenceCard />

@@ -41,28 +41,29 @@ li::marker {
     background-color: var(--secondary-color);
 }
 .content {
-    width: 550px;
+    width: 600px;
     margin: auto;
 }
 
-.CV, .Projects {
+.CV, .Projects, .Impressum {
     padding: 40px 0;
 }
-.CV h1, .Projects h1 {
+.CV h1, .Projects h1, .Impressum h1 {
     text-align: center;
-    font-weight: 300;
+    font-weight: 900;
     padding-bottom: 20px;
+    color: var(--on-secondary-color);
 }
-.CV h2 {
+.CV h2, .Impressum h2 {
     font-weight: 800;
     font-size: 1.4rem;
+    color: var(--on-secondary-color);
 }
 
 .CVCard, .CVCompetenceCard, .ProjectCard {
     background-color: var(--bg-color);
     box-shadow: var(--shd, 0 1px 1px rgba(0,0,0,.6));
     padding: 20px;
-    font-size: 0.9rem;
     position:relative;
 }
 
