@@ -13,3 +13,30 @@
     box-shadow: var(--shdi, 0 1px 1px rgba(0,0,0,.6));
 }
 
+.ProjectCard .wide {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .ProjectCard {
+        height: initial;
+        padding: 0;
+    }
+    .ProjectCard img {
+        position: relative;
+
+        height: 200px;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .ProjectCard .wide {
+        display: initial;
+    }
+    .ProjectCard .notWide {
+        display: none;
+    }
+    .ProjectCard h4, .ProjectCard p {
+        margin: 0 20px 0 20px;
+        padding-top: 30px;
+    }
+}

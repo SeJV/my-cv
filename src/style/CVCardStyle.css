@@ -4,7 +4,6 @@
 
 .CVCard .cont {
     display: flex;
-
 }
 .CVCard .info {
     width: 40%;
@@ -20,3 +19,13 @@
     font-weight: 700;
 }
 
+
+@media (max-width: 767px) {
+    .CVCard .cont {
+        display: block;
+    }
+    .CVCard .info, .CVCard .description {
+        width: 100%;
+        margin: 5px;
+    }
+}
