@@ -11,7 +11,10 @@
 .Footer .contacts>div {
     margin: 0 15px;
 }
-
+.Footer .impr svg {
+    color: darkred;
+    margin-top: -4px;
+}
 .Footer .Socials svg {
     font-size: 1rem;
     margin-top: -12px;
@@ -49,6 +52,10 @@
     .Footer .impr {
         margin-top: 10px;
         text-align: center;
+    }
+    .Footer .Socials svg {
+        font-size: 1.2rem;
+        margin-top: -12px;
     }
 }
 

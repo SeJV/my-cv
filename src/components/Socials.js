@@ -8,9 +8,9 @@ import '../style/SocialsStyle.css'
 const Socials = () => {
     return (
         <div className="Socials">
-            <a href="https://github.com/SeJV"><AiFillGithub /></a>
-            <a href="https://www.linkedin.com/in/sebastian-vogt-120036174/"><GrLinkedinOption /></a>
-            <a href="https://www.instagram.com/sebigen/"><FaInstagram /></a>
+            <a href="https://github.com/SeJV" target="_blank" rel="noreferrer"><AiFillGithub /></a>
+            <a href="https://www.linkedin.com/in/sebastian-vogt-120036174/" target="_blank" rel="noreferrer"><GrLinkedinOption /></a>
+            <a href="https://www.instagram.com/sebigen/" target="_blank" rel="noreferrer"><FaInstagram /></a>
         </div>
     )
 }

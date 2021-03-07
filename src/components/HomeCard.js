@@ -9,7 +9,7 @@ const HomeCard = () => {
     return (
         <div className="HomeCard">
             <div className="padder">
-                <img src={myImage} alt="Picture of me" />
+                <img src={myImage} alt="Me" />
                 <h3>Sebastian</h3>
                 <h3>Vogt</h3>
                 <div className="splitter" />

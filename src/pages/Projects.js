@@ -18,7 +18,7 @@ const Projects = () => {
                 <p>Small explanatory Text that describes my motivation</p>
                 <ProjectCard>
                     <h4>Comparison of reinforcement learning approaches</h4>
-                    <p>This repo is meant to showcase some approaches to solve discrete and continuous rl-environments. It also gives handy functions to initialize agents and compare their behaviour. Can be found on my <a href="https://www.github.com/SeJV/ComparisonRLApproaches">github</a>.</p>
+                    <p>This repo is meant to showcase some approaches to solve discrete and continuous rl-environments. It also gives handy functions to initialize agents and compare their behaviour. Can be found on my <u><a href="https://www.github.com/SeJV/ComparisonRLApproaches" target="_blank" rel="noreferrer">github</a></u>.</p>
                     <img src={RFExample} alt="Monte Carlo Tree Search visualized" />
                 </ProjectCard>
                 <ProjectCard>
