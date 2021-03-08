@@ -1,4 +1,4 @@
-# Source Code of my website [sebastian-vogt.dev](www.sebastian-vogt.dev)
+# Source Code of my website [sebastian-vogt.dev](https://www.sebastian-vogt.dev)
 
 ## Three Pages Home - CV - Projects
 With as little code as possible, I've created this responsive three-pager to represent my curriculum vitae in a beautiful way. 
