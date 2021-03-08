@@ -7,7 +7,6 @@ import RFExampleWide from '../img/RFExampleWide.png'
 import BTEval from '../img/BTEval.png'
 import BTEvalWide from '../img/BTEvalWide.png'
 import Combiner from '../img/Combiner.png'
-import FUN from '../img/FUN.JPG'
 
 import '../style/ProjectStyle.css'
 
@@ -16,10 +15,6 @@ import '../style/ProjectStyle.css'
 const Projects = () => {
     return (
         <div className="Projects">
-            <div className="fun">
-                <img src={FUN} alt="Lake" />
-                <div className="gradient" />
-            </div>
             <div className="content">
                 <h1>Projects</h1>
                 <p>There is never a moment when I don't have at least one project going on. For university, work, as a hobby or all at the same time. I love to learn by doing and to support this with theoretical basics. Always open for new ideas. </p>

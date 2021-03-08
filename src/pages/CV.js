@@ -4,15 +4,10 @@ import CVCard from '../components/CVCard'
 import CVCompetenceCard from '../components/CVCompetenceCard'
 
 import '../style/CVStyle.css'
-import FUN from '../img/FUN.JPG'
 
 const CV = () => {
     return (
         <div className="CV">
-            <div className="fun">
-                <img src={FUN} alt="Lake" />
-                <div className="gradient" />
-            </div>
             <div className="content">
                 <h1>Curriculum Vitae</h1>
                 <h2>Education</h2>
