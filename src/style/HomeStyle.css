@@ -2,19 +2,23 @@
     position: relative;
 }
 
+.Home .quote {
+    max-width: 500px;
+    font-size: 2.5rem;
+    font-weight: 300;
+    font-family: serif;
+    margin-top: 20px;
+}
+.Home .author {
+    font-family: serif;
+    font-weight: 300;
+    margin: 20px 10px 40px;
+}
+
 .Home .aboutme {
     background-color: var(--bg-color);
     margin-left: 33%;
     padding: 80px;
-}
-
-.Home .aboutme h1 {
-    font-size: 5rem;
-    font-weight: 800;
-}
-.Home .aboutme h2 {
-    font-weight: 400;
-    margin-bottom: 30px;
 }
 .Home .aboutme .btn {
     font-size: 0.8rem;
@@ -74,8 +78,7 @@
     }
 }
 
-
-@media (min-width: 1440px) {
+@media (min-width: 1500px) {
     .Home .aboutme {
         padding-left: 120px;
         min-height: 85vh;

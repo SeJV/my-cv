@@ -37,7 +37,7 @@ const Projects = () => {
                 </ProjectCard>
                 <ProjectCard>
                     <h4>Materials Combiner</h4>
-                    <p>For material research, this helpful tool supports sending Api queries to various databases. It unifies the process and merges the results. Results are cached, creating a small database of its own that can be accessed faster and with fewer restrictions. Can be found on my <u><a href="https://github.com/SeJV/MaterialsCombiner" target="_blank" rel="noreferrer">github</a></u>.</p>
+                    <p>For material research, this helpful tool supports sending API queries to various databases. It unifies the process and merges the results. Results are cached, creating a small database of its own that can be accessed faster and with fewer restrictions. Can be found on my <u><a href="https://github.com/SeJV/MaterialsCombiner" target="_blank" rel="noreferrer">github</a></u>.</p>
                     <img src={Combiner} alt="Materials Combiner" />
                 </ProjectCard>
                 <ProjectCard>

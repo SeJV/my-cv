@@ -10,8 +10,8 @@ function Home() {
         <div className="Home">
             <HomeCard />
             <div className="aboutme">
-                <h1>Hello</h1>
-                <h2>CS - It's not work if it's fun</h2>
+                <h2 className="quote"><i>"When you do what you love, it's not work anymore."</i></h2>
+                <h3 className="author">- J. Balvin</h3>
                 <span className="links">
                     <a href="/cv"><Button>CURRICULUM VITAE</Button></a>
                     <a href="/projects"><Button variant="secondary">PROJECTS</Button></a>

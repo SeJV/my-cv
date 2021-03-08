@@ -41,7 +41,7 @@
     }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1500px) {
     .ProjectCard {
         height: 400px;
         padding-right: 320px;

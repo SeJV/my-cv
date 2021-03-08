@@ -115,7 +115,7 @@ li::marker {
     }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1500px) {
     .content {
         width: 850px;
     }
