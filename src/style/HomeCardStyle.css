@@ -1,7 +1,7 @@
 .HomeCard {
     position: absolute;
     left: calc(33% - 230px);
-    top: 50px;
+    top: 150px;
     width: 270px;
     background-color: var(--secondary-light-color);
     color: var(--on-secondary-color);
@@ -54,7 +54,7 @@
 
 @media (min-width: 1500px) {
     .HomeCard {
-        top: 100px;
+        top: 250px;
         left: calc(33% - 400px);
         width: 450px;
     }
