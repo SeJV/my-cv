@@ -20,7 +20,7 @@ const Projects = () => {
                 <p>There is never a moment when I don't have at least one project going on. For university, work, as a hobby or all at the same time. I love to learn by doing and to support this with theoretical basics. Always open for new ideas. </p>
                 <ProjectCard>
                     <h4>Comparison of reinforcement learning approaches</h4>
-                    <p>This repo is meant to showcase some approaches to solve discrete and continuous rl-environments. It also gives handy functions to initialize agents and compare their behaviour. Some experiments produced interesting results. Can be found on my <u><a href="https://www.github.com/SeJV/ComparisonRLApproaches" target="_blank" rel="noreferrer">github</a></u>.</p>
+                    <p>Some of the most popular reinforcement learning methods are implemented. Their functionality is demonstrated and they are compared with each other. Some experiments produced interesting results. This can be found on my <u><a href="https://www.github.com/SeJV/ComparisonRLApproaches" target="_blank" rel="noreferrer">github</a></u>.</p>
                     <img className="notWide" src={RFExample} alt="Monte Carlo Tree Search visualized" />
                     <img className="wide"  src={RFExampleWide} alt="Monte Carlo Tree Search visualized" />
                 </ProjectCard>

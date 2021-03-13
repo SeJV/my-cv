@@ -10,17 +10,10 @@ const CVCompetenceCard = () => {
                 <div>
                     <h5>professional</h5>
                     <ul>
-                        <li>Excellent: Python, Java, JS</li>
-                        <li>Good: C++, C, Assembly</li>
-                        <li>Good: MongoDB and MySQL</li>
-                        <li>Data Science, Machine Learning and Image Processing with
-                            <ul>
-                                <li>Numpy</li>
-                                <li>Tensorflow</li>
-                                <li>Matlab</li>
-                                <li>scikit-learn</li>
-                            </ul>
-                        </li>
+                        <li>Natural Language Processing and Image Processing with Machine Learning</li>
+                        <li>Python, Java, JS, C, Assembly</li>
+                        <li>NoSQL, SQL, middleware with REST</li>
+                        <li>Software architecture/design</li>
                     </ul>
                 </div>
                 <div>
