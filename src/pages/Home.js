@@ -16,7 +16,7 @@ function Home() {
                     <a href="/cv"><Button>CURRICULUM VITAE</Button></a>
                     <a href="/projects"><Button variant="secondary">PROJECTS</Button></a>
                 </span>
-                <p>I am a second year Master's student in Computer Science looking for an internship to expand my knowledge and experience in machine learning, image processing, or both, using the skills I have developed through projects in my spare time, work experience, and at university. (From the length of the sentence you can probably already guess that I am from Germany.)</p>
+                <p>I am a third year Master's student in Computer Science looking for an opertunity to expand my knowledge and experience in machine learning, image processing, or both, using the skills I have developed through projects in my spare time, work experience, and at university. (From the length of the sentence you can probably already guess that I am from Germany.)</p>
             </div>
         </div>
     );

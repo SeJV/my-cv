@@ -10,7 +10,7 @@ const CVCompetenceCard = () => {
                 <div>
                     <h5>professional</h5>
                     <ul>
-                        <li>Natural Language Processing and Image Processing with Machine Learning</li>
+                        <li>Image Processing, Reinforcement Learning and Natural Language Processing</li>
                         <li>Python, Java, JS, C, Assembly</li>
                         <li>NoSQL, SQL, middleware with REST</li>
                         <li>Software architecture/design</li>
