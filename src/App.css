@@ -13,7 +13,8 @@
     --on-primary-color: #fff;
     --on-secondary-color: #000;
 
-    --breakpoint: 767px;
+    --small-breakpoint: 767px;
+    --big-breakpoint: 1900px;
 
     --shd: 11px 11px 11px 0px rgba(138,131,124,0.23);
     --shdi: -11px 0px 11px 0px rgba(138,131,124,0.15);
@@ -99,7 +100,7 @@ h1, h2, h3 {
     }
 }
 
-@media (min-width: 1700px) {
+@media (min-width: 1900px) {
     .content {
         width: 850px;
     }
