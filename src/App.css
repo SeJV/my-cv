@@ -4,8 +4,8 @@
     --primary-color: #1e88e5;
     --primary-light-color: #2196f3;
     --primary-dark-color: #1976d2;
-    --secondary-color: #c2c5c7;
-    --secondary-light-color: #f5f8fa;
+    --secondary-color: #d2d6dd;
+    --secondary-light-color: #e9eff5;
     --secondary-dark-color: #929596;
 
     --on-surface-color: #000;
@@ -88,6 +88,13 @@ h1, h2, h3 {
 .CV .content, .Projects .content {
     position: relative;
     z-index: 100;
+}
+.inView {
+    transform: translate3d(0, 7vh, 0);
+    transition: opacity .7s cubic-bezier(.19,1,.22,1),transform .5s cubic-bezier(.19,1,.22,1);
+}
+.inView.isInView {
+    transform: translate3d(0, 0, 0);
 }
 
 

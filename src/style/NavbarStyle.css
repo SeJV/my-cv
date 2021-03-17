@@ -16,22 +16,19 @@
 .Navbar .nav-link:hover {
     color: var(--primary-color) !important;
 }
-.Navbar .navbar-brand {
-    margin-top: 8px;
-}
 .Navbar span svg {
     color: var(--primary-dark-color);
-    font-size: 1.6rem;
-    margin-top: -5px;
+    font-size: 1rem;
+    margin-top: -2px;
     margin-right: 7px;
 }
 .Navbar h3 {
     font-weight: 800;
-    font-size: 1.4rem;
+    font-size: 1rem;
 }
 .Navbar h4 {
     font-weight: 300;
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     margin-left: 10px;
 }
 .Navbar h3, .Navbar h4{
@@ -44,25 +41,24 @@
     .Navbar h4{
         display: block;
     }
-
-    .Navbar .navbar-brand {
-        margin-top: 0;
-    }
     .Navbar .navbar-nav {
         font-weight: 800
     }
 }
 @media (min-width: 1900px) {
     .Navbar span svg {
-        font-size: 2.0rem;
+        font-size: 1.6rem;
         margin-top: -12px;
         margin-right: 5px;
     }
+    .Navbar .navbar-brand {
+        margin-top: 10px;
+    }
     .Navbar h3 {
-        font-size: 2.2rem;
+        font-size: 2rem;
     }
     .Navbar h4 {
-        font-size: 1.9rem;
+        font-size: 1.8rem;
     }
     .Navbar .navbar-nav a {
         font-size: 1.7rem;

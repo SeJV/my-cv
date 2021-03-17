@@ -3,6 +3,10 @@
     height: 300px;
     margin: 40px 0;
 }
+.ProjectCard h4 {
+    margin-top: 0;
+    font-size: 1.3rem;
+}
 .ProjectCard img {
     position: absolute;
     right: 0;

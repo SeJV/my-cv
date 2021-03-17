@@ -1,10 +1,17 @@
 import React from 'react'
+import { useInView } from 'react-hook-inview'
 
 import '../style/CVCardStyle.css'
 
 const CVCard = props => {
+    const [ref, isVisible] = useInView({
+        threshold: 0,
+        unobserveOnEnter: true
+    })
+
+    const cn = `CVCard inView ${isVisible ? "isInView" : ""}`
     return (
-        <div className="CVCard">
+        <div className={cn} ref={ref}>
             <h4>{props.date}</h4>
             <div className="cont">
                 <div className="info">
