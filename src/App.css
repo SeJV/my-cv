@@ -97,8 +97,14 @@ h1, h2, h3 {
     transform: translate3d(0, 0, 0);
 }
 
-
 @media (max-width: 767px) {
+    .CV, .Projects, .Impressum {
+        padding: 20px 0;
+    }
+    .CV h1, .Projects h1, .Impressum h1 {
+        font-size: 2rem;
+        padding-bottom: 0;
+    }
     .content {
         width: 100%;
         max-width: 370px;
