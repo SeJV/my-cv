@@ -16,6 +16,9 @@
 .Navbar .nav-link:hover {
     color: var(--primary-color) !important;
 }
+.Navbar .navbar-brand {
+    margin-top: 8px;
+}
 .Navbar span svg {
     color: var(--primary-dark-color);
     font-size: 1.6rem;
@@ -39,6 +42,10 @@
 @media (max-width: 767px) {
     .Navbar h4{
         display: block;
+    }
+
+    .Navbar .navbar-brand {
+        margin-top: 0;
     }
     .Navbar .navbar-nav {
         font-weight: 800

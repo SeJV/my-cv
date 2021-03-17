@@ -17,27 +17,27 @@ const Projects = () => {
         <div className="Projects">
             <div className="content">
                 <h1>Projects</h1>
-                <p>There is never a moment when I don't have at least one project going on. For university, work, as a hobby or all at the same time. I love to learn by doing and to support this with theoretical basics. Always open for new ideas. </p>
+                <p className="quote"><i>There is never a moment when I don't have at least one project going on. For university, work, in my spare time or all at the same time. I love learning by doing and to support this with theoretical basics. Always open for new ideas.</i></p>
                 <ProjectCard>
                     <h4>Comparison of reinforcement learning approaches</h4>
-                    <p>Some of the most popular reinforcement learning methods are implemented. Their functionality is demonstrated and compared to each other. It can be used to find the right algorithm for a given problem and the best fitting hyperparameters. This can be found on my <u><a href="https://www.github.com/SeJV/ComparisonRLApproaches" target="_blank" rel="noreferrer">github</a></u>.</p>
+                    <p>I implemented part of the most reinforcement learning methods. Their functionality is demonstrated and compared to each other. This project can be used to find the right algorithm for a given problem as well as the best fitting hyperparameters. This can be found on my <u><a href="https://www.github.com/SeJV/ComparisonRLApproaches" target="_blank" rel="noreferrer">github</a></u>.</p>
                     <img className="notWide" src={RFExample} alt="Monte Carlo Tree Search visualized" />
                     <img className="wide"  src={RFExampleWide} alt="Monte Carlo Tree Search visualized" />
                 </ProjectCard>
                 <ProjectCard>
                     <h4>Testing of the practicability of training neural networks on a smartphone</h4>
-                    <p>As my bachelorthesis I tested the limits of the neural engine on a smartphone processor, and evaluated the practicality within those limits. My main focus was on image processing and Convolutional Neural Networks.</p>
+                    <p>As part of my Bachelor´s thesis I explored the limits of the neural engine on a smartphone processor, and evaluated the practicality within those limits. My main focus was on image processing and Convolutional Neural Networks.</p>
                     <img className="notWide" src={BTEval} alt="Convolutional Neural Network" />
                     <img className="wide" src={BTEvalWide} alt="Convolutional Neural Network" />
                 </ProjectCard>
                 <ProjectCard>
-                    <h4>Materials Combiner</h4>
-                    <p>For material research, this helpful tool supports sending API queries to various databases. It unifies the process and merges the results. Results are cached, creating a small database of its own that can be accessed faster and with fewer restrictions. Can be found on my <u><a href="https://github.com/SeJV/MaterialsCombiner" target="_blank" rel="noreferrer">github</a></u>.</p>
+                    <h4>Development of a combination tool for material databases</h4>
+                    <p>My work in this project involved developing a tool to combine the access of multiple material research APIs. It unifies the process and merges the results. These are getting cached, creating a small database of its own that can be accessed faster and with fewer restrictions. Can be found on my <u><a href="https://github.com/SeJV/MaterialsCombiner" target="_blank" rel="noreferrer">github</a></u>.</p>
                     <img src={Combiner} alt="Materials Combiner" />
                 </ProjectCard>
                 <ProjectCard>
                     <h4>Website development and Fun</h4>
-                    <p>I have already developed many single page websites like this one. Also fullstack websites were developed, with a Flask or nodejs middleware and SQL or NoSQL as database. This skill helps the most to implement "shower thoughts".
+                    <p>I have already developed many single page websites like this one. Also fullstack websites were developed, with a Flask or Nodejs middleware and SQL or NoSQL as database. This skill helps the most to implement "shower thoughts".
                         Keeping up the fun is the most important with all of this.</p>
                     <img src={FunImage} alt="Fun" />
                 </ProjectCard>

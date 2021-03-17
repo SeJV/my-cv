@@ -1,6 +1,7 @@
-.Projects .content>p {
-    font-weight: 600;
-    max-width: 800px;
+.Projects .quote {
+    font-weight: 800;
+    max-width: 500px;
     margin: auto;
+    text-align: center;
 }
 

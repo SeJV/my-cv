@@ -1,12 +1,12 @@
 :root {
-    --bg-color: #F5F5F6;
-    --surface-color: #F5F5F6;
+    --bg-color: #f5f8fa;
+    --surface-color: #f5f8fa;
     --primary-color: #1e88e5;
     --primary-light-color: #2196f3;
     --primary-dark-color: #1976d2;
-    --secondary-color: #dcedc8;
-    --secondary-light-color: #f1f8e9;
-    --secondary-dark-color: #c5e1a5;
+    --secondary-color: #c2c5c7;
+    --secondary-light-color: #f5f8fa;
+    --secondary-dark-color: #929596;
 
     --on-surface-color: #000;
     --on-background-color: #000;
@@ -38,6 +38,10 @@ li::marker {
     color: var(--primary-dark-color);
 }
 
+h1, h2, h3 {
+    font-family: "Aldrich", Helvetica, Arial, sans-serif;
+}
+
 .Home, .CV, .Projects, .Impressum {
     background-color: var(--secondary-color);
 }
@@ -54,6 +58,7 @@ li::marker {
     font-weight: 900;
     padding-bottom: 20px;
     color: var(--on-secondary-color);
+    font-size: 3rem;
 }
 .CV h2, .Impressum h2 {
     font-weight: 800;
@@ -70,9 +75,9 @@ li::marker {
 
 .CVCard h4, .CVCompetenceCard h4, .ProjectCard h4 {
     margin-top: 20px;
-    font-size: 1.2rem;
     font-weight: 800;
     color: var(--primary-dark-color);
+    font-family: "Aldrich", Helvetica, Arial, sans-serif;
 }
 
 .CV, .Projects {
