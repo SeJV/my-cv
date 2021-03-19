@@ -27,7 +27,7 @@ const CVCompetenceCard = () => {
             <div className="hobbies">
                 <h5>hobbies</h5>
                 <ul>
-                    <li>Sports, like jogging and playing soccer</li>
+                    <li>Sports: Jogging and playing soccer</li>
                     <li>Making electronic music</li>
                     <li>Coding for fun</li>
                 </ul>
