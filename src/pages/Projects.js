@@ -38,7 +38,7 @@ const Projects = () => {
                 <ProjectCard>
                     <h4>Website development and Fun</h4>
                     <p>I have already developed many single page websites like this one. Also fullstack websites were developed, with a Flask or Nodejs middleware and SQL or NoSQL as database. This skill helps the most to implement "shower thoughts".
-                        Keeping up the fun is the most important with all of this.</p>
+                        Keeping up the fun is the most important part with all of this.</p>
                     <img src={FunImage} alt="Fun" />
                 </ProjectCard>
             </div>
