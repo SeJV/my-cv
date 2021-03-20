@@ -90,8 +90,8 @@ h1, h2, h3 {
     z-index: 100;
 }
 .inView {
-    transform: translate3d(0, 7vh, 0);
-    transition: opacity .7s cubic-bezier(.19,1,.22,1),transform .5s cubic-bezier(.19,1,.22,1);
+    transform: translate3d(0, 8vh, 0);
+    transition: all .7s cubic-bezier(.19,1,.22,1);
 }
 .inView.isInView {
     transform: translate3d(0, 0, 0);
