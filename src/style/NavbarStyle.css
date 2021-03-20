@@ -4,12 +4,30 @@
 .Navbar .navbar-toggler {
     border: none;
 }
-.Navbar .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 0.7)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M5 5L25 25M5 25L25 5'/%3e%3c/svg%3e");
+.Navbar .burgericon line {
+    stroke: var(--on-background-color);
+    stroke-width: 3px;
+    stroke-linecap: round;
+    transition: all 1.5s cubic-bezier(.19,1,.22,1);
 }
-.Navbar .collapsed .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(25, 118, 210, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+.Navbar .burgericon #secondbar {
+    opacity: 0;
 }
+
+.Navbar .collapsed .burgericon line {
+    stroke: var(--primary-dark-color);
+}
+.Navbar .collapsed .burgericon #firstbar {
+    transform: translate3d(-8px, 10px, 0) rotate(-45deg);
+}
+.Navbar .collapsed .burgericon #secondbar {
+    transform: translate3d(-8px, 21px, 0)  rotate(-45deg);
+    opacity: 1;
+}
+.Navbar .collapsed .burgericon #thirdbar {
+    transform: translate3d(20px, 4px, 0) rotate(45deg);
+}
+
 .Navbar .nav-link.active {
     color: var(--primary-dark-color) !important;
 }
