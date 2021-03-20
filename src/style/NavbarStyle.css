@@ -6,7 +6,7 @@
 }
 .Navbar .burgericon line {
     stroke: var(--on-background-color);
-    stroke-width: 3px;
+    stroke-width: 4px;
     stroke-linecap: round;
     transition: all 1.5s cubic-bezier(.19,1,.22,1);
 }
