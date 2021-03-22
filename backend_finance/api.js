@@ -12,14 +12,10 @@ const testKey = 'OeAFFmMliFG5orCUuwAKQ8l4WWFQ67YX'
 const additionalOptions = '&filter=last_close&fmt=json'
 
 const getFinanceData = (req, res) => {
-    const stock_data = require('./data/stock_data.json');
-
-    if(Date.now() > stock_data.expires) {
-        fetch(eodAPI + route + 'AAPL' + '.' + testExchange + '&api_token=' + testKey + additionalOptions)
-            .then(result => result.json())
-            .then(result => res.json(result))
+    fetch(eodAPI + route + 'AAPL' + '.' + testExchange + '&api_token=' + testKey + additionalOptions)
+        .then(result => result.json())
+        .then(result => res.json(result))
     }
-    return res.json({'Test': 'test'})
 }
 
 module.exports = getFinanceData
