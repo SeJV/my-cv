@@ -12,9 +12,7 @@ const testKey = 'OeAFFmMliFG5orCUuwAKQ8l4WWFQ67YX'
 const additionalOptions = '&filter=last_close&fmt=json'
 
 const getFinanceData = (req, res) => {
-    fetch(eodAPI + route + 'AAPL' + '.' + testExchange + '&api_token=' + testKey + additionalOptions)
-        .then(result => result.json())
-        .then(result => res.json(result))
+    res.json({'Test': 'test'})
 }
 
 module.exports = getFinanceData
