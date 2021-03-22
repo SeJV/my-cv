@@ -18,7 +18,7 @@ const getFinanceData = (req, res) => {
         fetch(eodAPI + route + 'AAPL' + '.' + testExchange + '&api_token=' + testKey + additionalOptions)
             .then(result => result.json())
             .then(result => {
-                res.json(result)
+                return res.json(result)
             })
     }
 }
