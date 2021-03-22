@@ -18,20 +18,17 @@ class Stocks extends React.Component {
                 console.log(res)
                 return res.json()
             })
-            .then(
-                (result) => {
-                    this.setState({
-                        isLoaded: true,
-                        items: result
-                    });
-                },
-                (error) => {
-                    this.setState({
-                        isLoaded: true,
-                        error
-                    });
-                }
-            )
+            .then((result) => {
+                this.setState({
+                    isLoaded: true,
+                    items: result
+                });
+            }, (error) => {
+                this.setState({
+                    isLoaded: true,
+                    error
+                });
+            })
     }
 
     render() {
