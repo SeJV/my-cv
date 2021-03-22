@@ -1,3 +1,4 @@
+const fetch = require('node-fetch');
 
 const key = '605889baa43966.04390979'
 const testKey = 'OeAFFmMliFG5orCUuwAKQ8l4WWFQ67YX'

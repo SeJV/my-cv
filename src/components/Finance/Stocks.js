@@ -15,6 +15,7 @@ class Stocks extends React.Component {
             method: 'GET'
         })
             .then(res => {
+                console.log(res)
                 return res.json()
             })
             .then(
