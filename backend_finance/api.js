@@ -6,7 +6,9 @@ const testPath = 'https://eodhistoricaldata.com/api/eod/MCD.US?from=2017-01-05&t
 
 
 const getFinanceData = (req, res) => {
-    res.json({"Test": "Test"})
+    fetch(testPath)
+        .then(result => result.json())
+        .then(result => res.json(result))
 }
 
 module.exports = getFinanceData
