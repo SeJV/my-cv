@@ -17,9 +17,7 @@ const getFinanceData = (req, res) => {
     if(Date.now() > stock_data.expires) {
         fetch(eodAPI + route + 'AAPL' + '.' + testExchange + '&api_token=' + testKey + additionalOptions)
             .then(result => result.json())
-            .then(result => {
-                return res.json(result)
-            })
+            .then(result => res.json(result))
     }
 }
 
