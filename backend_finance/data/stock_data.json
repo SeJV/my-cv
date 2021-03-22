@@ -2,23 +2,29 @@
     "holing": [
         {
             "ISIN": "IE00BP3QZ825",
-            "amount": 14
+            "amount": 14,
+            "price": 0
         },
         {
             "ISIN": "IE00B1XNHC34",
-            "amount": 50
+            "amount": 50,
+            "price": 0
         },
         {
             "ISIN": "US36467W1099",
-            "amount": 3
+            "amount": 3,
+            "price": 0
         },
         {
             "ISIN": "IE00BQN1K786",
-            "amount": 35
+            "amount": 35,
+            "price": 0
         },
         {
             "ISIN": "DE000TT5MXA1",
-            "amount": 22
+            "amount": 22,
+            "price": 0
         }
-    ]
+    ],
+    "expires": 1616423946533
 }

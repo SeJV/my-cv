@@ -11,7 +11,7 @@ class Stocks extends React.Component {
     }
 
     componentDidMount() {
-        fetch('https://www.sebastian-vogt.dev/financeAPI', {
+        fetch('https://www.sebastian-vogt.dev/api/finance', {
             method: 'GET'
         })
             .then(res => {
