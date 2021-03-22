@@ -1,0 +1,24 @@
+{
+    "holing": [
+        {
+            "ISIN": "IE00BP3QZ825",
+            "amount": 14
+        },
+        {
+            "ISIN": "IE00B1XNHC34",
+            "amount": 50
+        },
+        {
+            "ISIN": "US36467W1099",
+            "amount": 3
+        },
+        {
+            "ISIN": "IE00BQN1K786",
+            "amount": 35
+        },
+        {
+            "ISIN": "DE000TT5MXA1",
+            "amount": 22
+        }
+    ]
+}

@@ -5,7 +5,7 @@ import HomeCard from '../components/HomeCard'
 
 import '../style/HomeStyle.css'
 
-function Home() {
+const Home = () => {
     return (
         <div className="Home">
             <HomeCard />
@@ -15,10 +15,10 @@ function Home() {
                     <a href="/cv"><Button>CURRICULUM VITAE</Button></a>
                     <a href="/projects"><Button variant="secondary">PROJECTS</Button></a>
                 </span>
-                <p>I am a second year Master's student in Computer Science looking for an opportunity to expand my knowledge and experience in machine learning, image processing, or both, using the skills I have developed through work experience, at university and projects in my spare time. (From the length of the sentence you can probably already guess that I am from Germany.)</p>
+                <p>I am a second year Master's student in Computer Science looking for an opportunity to expand my knowledge and experience in machine learning, image processing, or both, applying the skills I have developed through work experience, at university and projects in my spare time. (From the length of the sentence you can probably already guess that I am from Germany.)</p>
             </div>
         </div>
-    );
+    )
 }
 
 export default Home
