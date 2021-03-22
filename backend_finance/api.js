@@ -19,7 +19,7 @@ const getFinanceData = (req, res) => {
             .then(result => result.json())
             .then(result => res.json(result))
     }
-    res.json({'Test': 'test'})
+    return res.json({'Test': 'test'})
 }
 
 module.exports = getFinanceData
