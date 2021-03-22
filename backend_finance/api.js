@@ -1,7 +1,10 @@
 const fetch = require('node-fetch');
 
 
-const testPath = 'eod/MCD.US?from=2017-01-05&to=2017-02-10&api_token=OeAFFmMliFG5orCUuwAKQ8l4WWFQ67YX'
+const testPath = 'https://eodhistoricaldata.com/api/eod/AAPL.US?api_token=OeAFFmMliFG5orCUuwAKQ8l4WWFQ67YX&filter=last_close&fmt=json'
+
+
+
 
 const eodAPI = 'https://eodhistoricaldata.com/api/'
 const route = 'eod/'
@@ -12,7 +15,9 @@ const testKey = 'OeAFFmMliFG5orCUuwAKQ8l4WWFQ67YX'
 const additionalOptions = '&filter=last_close&fmt=json'
 
 const getFinanceData = (req, res) => {
-    res.json({'Test': 'test'})
+    fetch(testPath)
+        .then(result => result.json())
+        .then(result => res.json(result))
 }
 
 module.exports = getFinanceData
