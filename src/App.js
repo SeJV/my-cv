@@ -14,7 +14,6 @@ import Home from './pages/Home'
 import CV from './pages/CV'
 import Projects from './pages/Projects'
 import Impressum from './pages/Impressum'
-import Finance from './pages/Finance'
 
 function App() {
     return (
@@ -25,7 +24,6 @@ function App() {
                     <Route path="/cv"><CV /></Route>
                     <Route path="/projects"><Projects /></Route>
                     <Route path="/impressum"><Impressum /></Route>
-                    <Route path="/finance"><Finance /></Route>
                     <Route path="/"><Home /></Route>
                 </Switch>
             <Footer/>
