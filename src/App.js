@@ -3,10 +3,10 @@ import {
     BrowserRouter as Router,
     Switch,
     Route
-} from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
+} from 'react-router-dom'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
-import './App.css';
+import './App.css'
 
 import Navbar from'./components/Navbar'
 import Footer from './components/Footer'
@@ -15,7 +15,7 @@ import CV from './pages/CV'
 import Projects from './pages/Projects'
 import Impressum from './pages/Impressum'
 
-function App() {
+const App = () => {
     return (
         <Router>
             <Navbar />
@@ -29,7 +29,7 @@ function App() {
             <Footer/>
             </div>
         </Router>
-    );
+    )
 }
 
-export default App;
+export default App
