@@ -20,7 +20,7 @@ const Projects = () => {
                 <p className="quote"><i>There is never a moment when I don't have at least one project going on. For university, work, in my spare time or all at the same time. I love learning by doing and to reinforce it with theoretical basics. Always open for new ideas.</i></p>
                 <ProjectCard>
                     <h4>Comparison of reinforcement learning approaches</h4>
-                    <p>I implemented part of the most reinforcement learning methods. Their functionality is demonstrated and compared to each other. This project can be used to find the right algorithm for a given problem as well as the best fitting hyperparameters. This can be found on my <u><a href="https://www.github.com/SeJV/ComparisonRLApproaches" target="_blank" rel="noreferrer">github</a></u>.</p>
+                    <p>I implemented part of the most relevant reinforcement learning methods. Their functionality is demonstrated and compared to each other. This project can be used to find the right algorithm for a given problem as well as the best fitting hyperparameters. This can be found on my <u><a href="https://www.github.com/SeJV/ComparisonRLApproaches" target="_blank" rel="noreferrer">github</a></u>.</p>
                     <img className="notWide" src={RFExample} alt="Monte Carlo Tree Search visualized" />
                     <img className="wide"  src={RFExampleWide} alt="Monte Carlo Tree Search visualized" />
                 </ProjectCard>
