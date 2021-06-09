@@ -12,6 +12,9 @@ const CV = () => {
                 <h1>Curriculum Vitae</h1>
                 <CVCompetenceCard />
                 <h2>Employments</h2>
+                <CVCard date="08 / 2021  -  07 / 2022" position="Technical Student" employer="CERN" location="Geneva">
+                    <p>Building set of components and APIs for integrating ML pipelines with the Monitoring Service. Its goal is providing unified platform where data scientists can focus on building and training their anomaly detection monitoring algorithms.</p>
+                </CVCard>
                 <CVCard date="04 / 2019  -  03 / 2020" position="Working Student" employer="Sovanta AG" location="Heidelberg">
                     <p>Working student at sovanta AG in the Data Lab/AI department in Heidelberg, Germany. Projects where focused on NLU and Chatbot technology with Rasa and Tensorflow.</p>
                 </CVCard>
