@@ -1,0 +1,124 @@
+{
+    "expires": 1,
+    "info": [
+        {
+            "symbol": "EUR",
+            "available": "0",
+            "inOrder": "0"
+        },
+        {
+            "symbol": "ADA",
+            "available": "20.619388",
+            "inOrder": "0",
+            "price": "1.0546"
+        },
+        {
+            "symbol": "BCH",
+            "available": "0",
+            "inOrder": "0",
+            "price": "534.75"
+        },
+        {
+            "symbol": "BSV",
+            "available": "0",
+            "inOrder": "0",
+            "price": "211.9"
+        },
+        {
+            "symbol": "BTC",
+            "available": "0.00033024",
+            "inOrder": "0",
+            "price": "48833"
+        },
+        {
+            "symbol": "EOS",
+            "available": "3.3369",
+            "inOrder": "0",
+            "price": "5.4086"
+        },
+        {
+            "symbol": "ETH",
+            "available": "0",
+            "inOrder": "0",
+            "price": "1754.1"
+        },
+        {
+            "symbol": "HOT",
+            "available": "1455.26926725",
+            "inOrder": "0",
+            "price": "0.018783"
+        },
+        {
+            "symbol": "ICX",
+            "available": "0",
+            "inOrder": "0",
+            "price": "2.0613"
+        },
+        {
+            "symbol": "LTC",
+            "available": "0",
+            "inOrder": "0",
+            "price": "190.72"
+        },
+        {
+            "symbol": "MIOTA",
+            "available": "11.37874",
+            "inOrder": "0",
+            "price": "1.4285"
+        },
+        {
+            "symbol": "NANO",
+            "available": "34.387245",
+            "inOrder": "0",
+            "price": "4.7689"
+        },
+        {
+            "symbol": "NEO",
+            "available": "0.3808082",
+            "inOrder": "0",
+            "price": "50.168"
+        },
+        {
+            "symbol": "NPXS",
+            "available": "0",
+            "inOrder": "0",
+            "price": "0.0063093"
+        },
+        {
+            "symbol": "TRX",
+            "available": "297.297275",
+            "inOrder": "0",
+            "price": "0.099663"
+        },
+        {
+            "symbol": "UNI",
+            "available": "0",
+            "inOrder": "0",
+            "price": "26.199"
+        },
+        {
+            "symbol": "VET",
+            "available": "305.26491389",
+            "inOrder": "0",
+            "price": "0.089091"
+        },
+        {
+            "symbol": "VTHO",
+            "available": "0.67575958",
+            "inOrder": "0",
+            "price": "0.013449"
+        },
+        {
+            "symbol": "XRP",
+            "available": "23.9079",
+            "inOrder": "0",
+            "price": "0.78384"
+        },
+        {
+            "symbol": "XTZ",
+            "available": "2.43263",
+            "inOrder": "0",
+            "price": "5.1872"
+        }
+    ]
+}

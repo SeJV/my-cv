@@ -1,0 +1,55 @@
+.Loading {
+    background-color: #31476A;
+    height: 120vh;
+    width: 100vw;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.finished {
+    opacity: 0;
+    transition-delay: .2s;
+    transition-duration: 1s;
+}
+
+.waveContainer {
+    width: 10000vw;
+    height: 0;
+    position: relative;
+    animation: leftToRight 3s linear infinite;
+}
+.waveContainer2 {
+    width: 10000vw;
+    height: 0;
+    position: relative;
+    margin-left: -500px;
+    animation: rightToLeft 3.3s linear infinite;
+}
+@keyframes leftToRight {
+    0% { left: 0; }
+    100% { left: -200px; }
+}
+@keyframes rightToLeft {
+    0% { left: 0; }
+    100% { left: 200px; }
+}
+.Loading svg {
+    height: 100px;
+    display: inline;
+    width: 200px;
+    float: left;
+}
+
+.Loading .floater1 {
+    background-color: #90DAB9;
+}
+
+.Loading .floater2 {
+    background-color: #619192;
+}
+
+.Loading .floater1, .Loading .floater2 {
+    height: 32%;
+}

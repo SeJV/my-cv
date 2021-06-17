@@ -1,0 +1,80 @@
+.Overview {
+    --plot-height: 300px;
+}
+.Overview .PieChart {
+    width: 270px;
+    height: 270px;
+    position: relative;
+    margin: 50px auto 0;
+    z-index: 100;
+}
+.Overview .PieChart h2 {
+    margin: 0;
+    font-weight: 800;
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.Overview .CryptoPieChart {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 225px;
+}
+.Overview .CryptoPortfolioValue {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: #0024d4;
+}
+
+.Overview .CryptoPieChart text {
+    visibility: hidden;
+}
+.Overview .CryptoPieChart:hover text {
+    visibility: visible;
+}
+
+.Overview .OverviewPlot {
+    max-width: 400px;
+    margin: -50px auto 0;
+}
+
+.Overview .OverviewPlot div, .Overview .OverviewPlot svg, .Overview .OverviewPlot img {
+    height: calc(var(--plot-height) - 60px) !important;
+}
+.Overview .OverviewPlot {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: calc(var(--plot-height) - 90px);
+    margin-bottom: 30px;
+}
+.Overview .OverviewPlot>div {
+    position: absolute;
+    bottom: 0;
+}
+
+.Overview .Stocks {
+    padding: 40px 0;
+    background-color: var(--bg-color);
+}
+
+.Overview svg {
+    overflow: visible;
+}
+.Overview text {
+    font-size: 0.4rem;
+}
+
+.Overview .Approaching ul {
+    padding-left: 0;
+    padding-bottom: 50px;
+}
+.Overview .Approaching li {
+    font-weight: 800;
+    list-style-type: none;
+}

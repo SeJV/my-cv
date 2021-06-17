@@ -1,0 +1,45 @@
+.Finance {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    --primary-color: #24bcdd;
+    --secondary-color: #db21f8;
+    --tertiary-color: #806FEB;
+    --text-color: #2a2a2a;
+
+    --bg-light-color: #f5f8fa;
+    --bg-color: #d2d6dd;
+    --bg-dark-color: #929596;
+
+    --shd: 11px 11px 11px 0px rgba(138,131,124,0.23);
+    --shdi: -11px 0px 11px 0px rgba(138,131,124,0.15);
+    --shdt: 11px -11px 11px 0px rgba(138,131,124,0.08);
+    --shda: 0px 0px 11px 0px rgba(138,131,124,0.23);
+
+    background-color: var(--bg-light-color);
+
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    color: var(--text-color);
+    text-align: center;
+}
+
+.Finance h1, .Finance h2, .Finance h3, .Finance h4 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+.Finance h3 {
+    font-size: 1.3rem;
+}
+
+.content {
+    max-width: 700px;
+    margin: auto;
+}
+

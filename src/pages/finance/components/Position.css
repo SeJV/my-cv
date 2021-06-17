@@ -1,0 +1,33 @@
+.Position {
+    --plot-height: 170px;
+    background-color: var(--bg-light-color);
+    max-width: 350px;
+    margin: 30px auto;
+    border-radius: 3px;
+    padding: 20px 0 20px;
+    box-shadow: var(--shd);
+}
+.Position h3 {
+    margin-top: 0;
+}
+
+.Position h4, .Position p {
+    display: inline;
+}
+.Position p {
+     margin-left: 10px;
+ }
+
+.Position .PositionPlot div, .Position .PositionPlot svg, .Position .PositionPlot img {
+    height: calc(var(--plot-height) - 60px) !important;
+}
+
+.Position .PositionPlot {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: calc(var(--plot-height) - 110px);
+}
+.Position .PositionPlot>div {
+    position: absolute;
+    bottom: 0;
+}

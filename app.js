@@ -1,13 +1,17 @@
 const express = require('express')
 const path = require('path')
 
+const financeRouter = require('./api/finance')
+
 const app = express()
 
-app.route("/apiForMe")
-    .get((req, res) => res.send("Hello World"))
+app.use('/financeapi', financeRouter)
+
+app.route('/apiforme')
+    .get((req, res) => res.send('Hello World'))
 
 app.use(express.static(path.join(__dirname, 'build')))
-app.route("*")
+app.route('*')
     .get((req, res) => {
         res.sendFile(path.join(__dirname, 'build', 'index.html'))
     })
