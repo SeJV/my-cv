@@ -2,6 +2,7 @@ const fs = require('fs')
 
 const editAbwesenheit = (req, res, updateAbwesenheit) => {
     res.json(updateAbwesenheit)
+    /*
     const jsonString = fs.readFileSync(req.abwesenheitPath)
     const abwesenheit = JSON.parse(jsonString)
 
@@ -15,6 +16,7 @@ const editAbwesenheit = (req, res, updateAbwesenheit) => {
     }
 
     fs.writeFileSync(req.abwesenheitPath, JSON.stringify(abwesenheit, null, 4))
+    */
 }
 
 module.exports = editAbwesenheit
