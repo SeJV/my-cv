@@ -14,7 +14,7 @@ const editAbwesenheit = (req, res, updateAbwesenheit) => {
     }
 
     fs.writeFileSync(req.abwesenheitPath, JSON.stringify(abwesenheit, null, 4))
-    res.json(abwesenheit)
+    res.json(updateAbwesenheit)
 }
 
 module.exports = editAbwesenheit
