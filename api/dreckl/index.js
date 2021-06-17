@@ -2,10 +2,11 @@ const express = require('express')
 
 const getAbwesenheit = require('./abwesenheit/get')
 const putAbwesenheit = require('./abwesenheit/put')
+const postAbwesenheit = require('./abwesenheit/post')
 const deleteAbwesenheit = require('./abwesenheit/delete')
 
 const postAuth = require('./auth/post')
-const getAuth = require('./auth/get')
+const putAuth = require('./auth/put')
 const authMiddleware = require('./auth/middleware')
 
 const path = require('path')
@@ -28,13 +29,13 @@ drecklRouter.use((req, res, next) => {
 drecklRouter.route('/auth')
     .post(postAuth)
     .put(postAuth)
-    .get(getAuth)
+    .get(putAuth)
 
 drecklRouter.use('/abwesenheit', authMiddleware)
 drecklRouter.route('/abwesenheit')
     .get(getAbwesenheit)
     .put(putAbwesenheit)
-    .post(putAbwesenheit)
+    .post(postAbwesenheit)
     .delete(deleteAbwesenheit)
 
 module.exports = drecklRouter
