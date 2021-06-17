@@ -19,8 +19,8 @@ class Overview extends Component {
 
     componentDidMount() {
         Promise.all([
-            fetch('https://sebastian-vogt.dev/finance/api/data'),
-            fetch('https://sebastian-vogt.dev/finance/api/crypto')
+            fetch('https://sebastian-vogt.dev/financeapi/data'),
+            fetch('https://sebastian-vogt.dev/financeapi/crypto')
         ])
             .then(res => {
                 return Promise.all([res[0].json(), res[1].json()])
