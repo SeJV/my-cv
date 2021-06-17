@@ -1,5 +1,4 @@
 const express = require('express')
-const path = require('path')
 const financeData = require('./functions/financeData')
 const cryptoData = require('./functions/cryptoData')
 
