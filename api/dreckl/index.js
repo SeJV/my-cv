@@ -26,8 +26,7 @@ drecklRouter.use((req, res, next) => {
 })
 
 drecklRouter.route('/auth')
-    .post((req, res) => postAuth(req, res))
-    .get((req, res) => res.send('wtf'))
+    .put(postAuth)
 
 drecklRouter.use('/abwesenheit', authMiddleware)
 drecklRouter.route('/abwesenheit')
