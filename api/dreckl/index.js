@@ -34,6 +34,7 @@ drecklRouter.use('/abwesenheit', authMiddleware)
 drecklRouter.route('/abwesenheit')
     .get(getAbwesenheit)
     .put(putAbwesenheit)
+    .post(putAbwesenheit)
     .delete(deleteAbwesenheit)
 
 module.exports = drecklRouter
