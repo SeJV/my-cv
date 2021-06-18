@@ -31,12 +31,15 @@ drecklRouter.route('/abwesenheit/get')
     .get(getAbwesenheit)
 
 drecklRouter.route('/abwesenheit/put')
+    .get(putAbwesenheit)
     .put(putAbwesenheit)
 
 drecklRouter.route('/abwesenheit/post')
+    .get(postAbwesenheit)
     .post(postAbwesenheit)
 
 drecklRouter.route('/abwesenheit/delete')
+    .get(deleteAbwesenheit)
     .delete(deleteAbwesenheit)
 
 module.exports = drecklRouter
