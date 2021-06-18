@@ -21,8 +21,9 @@ drecklRouter.use((req, res, next) => {
 })
 
 drecklRouter.route('/auth')
-    .post(postAuth)
+    .get(putAuth)
     .put(putAuth)
+    .post(postAuth)
 
 // splitting the routes, namecheap server otherwise routes everything to get function
 drecklRouter.use('/abwesenheit/*', authMiddleware)
