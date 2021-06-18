@@ -1,15 +1,9 @@
-const fs = require('fs')
+const abwesenheitDB = require('../db/abwesenheit')
 
 const deleteAbwesenheit = (req, res) => {
-    const jsonString = fs.readFileSync(req.abwesenheitPath)
-    const abwesenheit = JSON.parse(jsonString)
-
-    for (const key in abwesenheit) {
-        abwesenheit[key] = null
-    }
-
-    fs.writeFileSync(req.abwesenheitPath, JSON.stringify(abwesenheit, null, 4))
-    res.json(abwesenheit)
+    abwesenheitDB.update(null, null, null, null, () => {
+        res.send('Reset "abwesenheit".')
+    })
 }
 
 module.exports = deleteAbwesenheit

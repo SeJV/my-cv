@@ -1,10 +1,9 @@
-const fs = require('fs')
+const abwesenheitDB = require('../db/abwesenheit')
 
 const getAbwesenheit = (req, res) => {
-    const jsonString = fs.readFileSync(req.abwesenheitPath)
-    const abwesenheit = JSON.parse(jsonString)
-
-    res.json(abwesenheit)
+    abwesenheitDB.read((abwesenheit) => {
+        res.json(abwesenheit)
+    })
 }
 
 module.exports = getAbwesenheit
