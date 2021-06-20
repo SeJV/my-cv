@@ -46,7 +46,7 @@ drecklRouter.route('/abwesenheit/delete')
     .delete(deleteAbwesenheit)
 
 
-drecklRouter.use('/countuser/*', authMiddleware)
+drecklRouter.use('/countuser/get', authMiddleware)  // auth not for posting
 drecklRouter.route('/countuser/get')
     .get(getCountUser)
 
