@@ -28,6 +28,15 @@ drecklRouter.route('/auth')
     .put(putAuth)
     .post(postAuth)
 
+
+drecklRouter.route('/countuser/post')
+    .get(postCountUser)
+    .post(postCountUser)
+
+drecklRouter.use('/countuser/get', authMiddleware)  // auth not for posting
+drecklRouter.route('/countuser/get')
+    .get(getCountUser)
+
 // splitting the routes, namecheap server otherwise routes everything to get function
 drecklRouter.use('/abwesenheit/*', authMiddleware)
 drecklRouter.route('/abwesenheit/get')
@@ -45,14 +54,6 @@ drecklRouter.route('/abwesenheit/delete')
     .get(deleteAbwesenheit)
     .delete(deleteAbwesenheit)
 
-
-drecklRouter.use('/countuser/get', authMiddleware)  // auth not for posting
-drecklRouter.route('/countuser/get')
-    .get(getCountUser)
-
-drecklRouter.route('/countuser/post')
-    .get(postCountUser)
-    .post(postCountUser)
 
 
 module.exports = drecklRouter
