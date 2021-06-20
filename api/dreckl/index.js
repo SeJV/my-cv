@@ -5,6 +5,9 @@ const putAbwesenheit = require('./abwesenheit/put')
 const postAbwesenheit = require('./abwesenheit/post')
 const deleteAbwesenheit = require('./abwesenheit/delete')
 
+const getCountUser = require('./countuser/get')
+const postCountUser = require('./countuser/post')
+
 const postAuth = require('./auth/post')
 const putAuth = require('./auth/put')
 const authMiddleware = require('./auth/middleware')
@@ -41,5 +44,15 @@ drecklRouter.route('/abwesenheit/post')
 drecklRouter.route('/abwesenheit/delete')
     .get(deleteAbwesenheit)
     .delete(deleteAbwesenheit)
+
+
+drecklRouter.use('/countuser/*', authMiddleware)
+drecklRouter.route('/countuser/get')
+    .get(getCountUser)
+
+drecklRouter.route('/countuser/post')
+    .get(postCountUser)
+    .post(postCountUser)
+
 
 module.exports = drecklRouter

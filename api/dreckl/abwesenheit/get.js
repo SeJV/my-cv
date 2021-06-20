@@ -1,4 +1,5 @@
-const abwesenheitDB = require('../db/abwesenheit')
+const db = require('../db/dreckl')
+const abwesenheitDB = db.abwesenheit
 
 const getAbwesenheit = (req, res) => {
     abwesenheitDB.read((abwesenheit) => {
