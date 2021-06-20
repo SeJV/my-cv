@@ -17,8 +17,8 @@ Params in body as JSON like **PUT**
 ### DELETE /delete
 No params, sets any value of abwesenheit to null
 
-## TOOD: Count and get cookie confirmations
-### POST: 
-- with date time
-### GET:
-- with timeframe (last week/month/year/all)
+## /countuser
+### POST /post: 
+- current timestamp gets stored 
+### GET /get:
+- with optional 'since' as js timestamp: 
