@@ -6,7 +6,9 @@ const checkPin = (req, res, pin) => {
         // 2. generate jwt
         const token = generateAccessToken(req.tokenSecret)
         res.cookie('drecklJWT', token, {maxAge: 1000 * 60 * 60 * 24 * 7})
-        res.send('Cookie successfully set')
+        res.json({
+            'drecklJWT': token
+        })
     } else {
         res.status(401).send('Pin was wrong: ' + pin)
     }
