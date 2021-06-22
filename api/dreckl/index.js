@@ -55,5 +55,4 @@ drecklRouter.route('/abwesenheit/delete')
     .delete(deleteAbwesenheit)
 
 
-
 module.exports = drecklRouter
