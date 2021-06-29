@@ -9,6 +9,7 @@ const financeRouter = require('./api/finance')
 
 const app = express()
 
+app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 app.use(cookieParser())
 app.use(cors())
@@ -16,8 +17,8 @@ app.use(cors())
 app.use('/drecklapi', drecklRouter)
 app.use('/financeapi', financeRouter)
 
-app.route('/apiforme')
-    .get((req, res) => res.send('Hello World'))
+app.route('/version')
+    .get((req, res) => res.send('v0.1'))
 
 app.use(express.static(path.join(__dirname, 'build')))
 app.route('*')
