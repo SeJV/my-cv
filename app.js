@@ -18,7 +18,7 @@ app.use('/drecklapi', drecklRouter)
 app.use('/financeapi', financeRouter)
 
 app.route('/version')
-    .get((req, res) => res.send('v0.1'))
+    .get((req, res) => res.send('v0.2'))
 
 app.use(express.static(path.join(__dirname, 'build')))
 app.route('*')
