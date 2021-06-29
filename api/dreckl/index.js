@@ -20,8 +20,14 @@ const drecklRouter = express.Router()
 drecklRouter.use((req, res, next) => {
     req.abwesenheitPath = appRoot + '/db/abwesenheit.json'
     req.tokenSecret = 'e9b7cf9114c278d1fb569b271998c798047260d1a34c08b25e1c2f91f705ad9991bc92e630f1a702b782a093f58eb68d6dbffa5ae8e665e0aabf51ced6cc034c'
+
+    if (req.query.drecklJWT) {
+        req.cookies.drecklJWT = req.query.drecklJWT
+    }
+
     next()
 })
+
 
 drecklRouter.route('/auth')
     .get(putAuth)
