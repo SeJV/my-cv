@@ -28,34 +28,35 @@ drecklRouter.use((req, res, next) => {
     next()
 })
 
-
+// Public Path
 drecklRouter.route('/auth')
     .get(putAuth)
     .put(putAuth)
     .post(postAuth)
 
-
 drecklRouter.route('/countuser/post')
     .get(postCountUser)
     .post(postCountUser)
 
-drecklRouter.use('/countuser/get', authMiddleware)  // auth not for posting
-drecklRouter.route('/countuser/get')
-    .get(getCountUser)
-
-// splitting the routes, namecheap server otherwise routes everything to get function
-drecklRouter.use('/abwesenheit/*', authMiddleware)
 drecklRouter.route('/abwesenheit/get')
     .get(getAbwesenheit)
 
+// Admin Path
+drecklRouter.use('/countuser/get', authMiddleware)
+drecklRouter.route('/countuser/get')
+    .get(getCountUser)
+
+drecklRouter.use('/abwesenheit/put', authMiddleware)
 drecklRouter.route('/abwesenheit/put')
     .get(putAbwesenheit)
     .put(putAbwesenheit)
 
+drecklRouter.use('/abwesenheit/post', authMiddleware)
 drecklRouter.route('/abwesenheit/post')
     .get(postAbwesenheit)
     .post(postAbwesenheit)
 
+drecklRouter.use('/abwesenheit/delete', authMiddleware)
 drecklRouter.route('/abwesenheit/delete')
     .get(deleteAbwesenheit)
     .delete(deleteAbwesenheit)
