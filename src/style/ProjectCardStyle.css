@@ -49,6 +49,7 @@
     .ProjectCard {
         height: 400px;
         padding-right: 320px;
+        font-size: 1.2rem;
     }
     .ProjectCard img {
         height: 400px;
